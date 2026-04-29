@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Typography Portfolio </title>
+  <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+
+<div id="cur"></div>
+<div id="cur-ring"></div>
+
+<header>
+  <div>
+    <div class="h-name" onclick="goHome()">
+      <span id="hname" contenteditable="true"> Ruby Yun </span>
+    </div>
+    <div class="h-role">
+      <span contenteditable="true">Designer · Developer</span>
+    </div>
+  </div>
+
+  <div class="h-links">
+    <a href="#" onclick="goHome();return false;">Work</a>
+    <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+  </div>
+
+  <div class="h-year"> © 2026</div>
+</header>
+
+<!-- HOME -->
+<div class="page active" id="home">
+  <section class="work-section" id="work-section">
+    <div class="section-head">
+      <p>Projects</p>
+    </div>
+    <div class="grid" id="grid"></div>
+  </section>
+</div>
+
+<!-- DETAIL -->
+<div class="page" id="detail">
+
+  <div class="back" onclick="goHome()">← Work</div>
+
+  <div class="detail-top">
+    <div>
+      <div id="d-title" contenteditable="true"></div>
+      <div id="d-meta" contenteditable="true"></div>
+    </div>
+
+    <div>
+      <div id="d-headline" contenteditable="true"></div>
+      <div id="d-desc" contenteditable="true"></div>
+    </div>
+  </div>
+
+  <div class="slider-wrap">
+    <button class="slider-arrow prev" type="button" aria-label="Previous image" onclick="prevSlide()">‹</button>
+    <div class="slider" id="slider">
+      <div class="slides-track" id="slides"></div>
+    </div>
+    <button class="slider-arrow next" type="button" aria-label="Next image" onclick="nextSlide()">›</button>
+  </div>
+  <div class="slider-dots" id="slider-dots"></div>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
