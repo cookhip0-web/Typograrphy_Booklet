@@ -38,16 +38,16 @@ const state = {
       "./image/project1/booklet_Page_7.jpg"
     ],
     2: [
-      "./project2/spread.jpg",
-      "./project2/cover1.jpg",
-      "./project2/o.jpg",
-      "./project2/22.jpg",
-      "./project2/33.jpg",
-      "./project2/44.jpg",
-      "./project2/55.jpg",
-      "./project2/66.jpg",
-      "./project2/back1.jpg"
-    ],
+  "./image/project2/spread.jpg",
+  "./image/project2/cover1.jpg",
+  "./image/project2/o.jpg",
+  "./image/project2/22.jpg",
+  "./image/project2/33.jpg",
+  "./image/project2/44.jpg",
+  "./image/project2/55.jpg",
+  "./image/project2/66.jpg",
+  "./image/project2/back1.jpg"
+],
     3: [
       "./image/project3/mockup.jpg",
       "./image/project3/mockup2.jpg",
