@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../intern/port/f"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "f"
+	}
+}
